@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cublife" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\cublife" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\cublife" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+			<Add directory="..\include" />
+			<Add directory="..\include\cairo" />
+			<Add directory="..\include\gtk-3.0" />
+			<Add directory="..\include\glib-2.0" />
+			<Add directory="..\lib\glib-2.0\include" />
+			<Add directory="..\include\pango-1.0" />
+			<Add directory="..\include\gdk-pixbuf-2.0" />
+			<Add directory="..\include\atk-1.0" />
+			<Add directory="..\include\SDL" />
+			<Add directory="..\include\SDL_gfx" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="..\bin" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+			<Add option="-lSDL_image" />
+			<Add option="-lgtk-3 -lgdk-3 -latk-1.0 -lgio-2.0 -lpangowin32-1.0 -lgdi32 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo-gobject -lpango-1.0 -lcairo -lgobject-2.0 -lglib-2.0 -lintl" />
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="SDL_gfx" />
+			<Add library="..\lib\x86\SDL_ttf.lib" />
+			<Add directory="..\lib" />
+		</Linker>
+		<Unit filename="barreOutils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="barreOutils.h" />
+		<Unit filename="commun.h" />
+		<Unit filename="espece.h" />
+		<Unit filename="fonctionBasiques.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionBasiques.h" />
+		<Unit filename="individu.h" />
+		<Unit filename="interface_GTK.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="interface_GTK.h" />
+		<Unit filename="interface_SDL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="interface_SDL.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="map.h" />
+		<Unit filename="simulation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulation.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

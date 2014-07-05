@@ -1,0 +1,79 @@
+
+la sdl va s'initialiser...OK
+generation de la map...OK
+la sdl va quitter...OK
+
+Caracteristique de l'espece Vache
+
+Caracteristique de l'espece Pissenlit
+
+Caracteristique de l'espece Lion
+
+Caracteristique de l'espece Pissenlit
+
+Caracteristique de l'espece Lion
+
+Caracteristique de l'espece Vache
+
+Caracteristique de l'espece Lion
+
+Caracteristique de l'espece Pissenlit
+
+Caracteristique de l'espece Lion
+
+Caracteristique de l'espece Vache
+
+Caracteristique de l'espece Lion
+
+Caracteristique de l'espece Pissenlit
+
+Caracteristique de l'espece Lion
+
+Caracteristique de l'espece Vache
+la sdl va s'initialiser...Chargement de la map...OK
+la sdl va quitter...OK
+la sdl va s'initialiser...Chargement de la map...OK
+la sdl va quitter...OK
+la sdl va s'initialiser...Chargement de la map...OK
+la sdl va quitter...OK
+
+Caracteristique de l'espece Lion
+
+Caracteristique de l'espece Pissenlit
+
+Caracteristique de l'espece Lion
+
+Caracteristique de l'espece Vache
+
+Caracteristique de l'espece Lion
+
+Caracteristique de l'espece Pissenlit
+
+Caracteristique de l'espece Lion
+
+Caracteristique de l'espece Vache
+
+Caracteristique de l'espece Lion
+
+Caracteristique de l'espece Vache
+la sdl va s'initialiser...Chargement de la map...OK
+la sdl va quitter...OK
+
+Caracteristique de l'espece Lion
+
+Caracteristique de l'espece Vache
+la sdl va s'initialiser...Chargement de la map...OK
+la sdl va quitter...OK
+
+Caracteristique de l'espece Lion
+
+Caracteristique de l'espece Vache
+la sdl va s'initialiser...Chargement de la map...OK
+la sdl va quitter...OK
+la sdl va s'initialiser...Chargement de la map...OK
+la sdl va quitter...OK
+la sdl va s'initialiser...OK
+generation de la map...OK
+la sdl va quitter...OK
+
+programme ferme avec succes
